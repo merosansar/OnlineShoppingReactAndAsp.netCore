@@ -1,0 +1,29 @@
+@OnlineShoppingReactAndAsp.netCore.Server_HostAddress = http://localhost:5211
+
+# GET {{OnlineShoppingReactAndAsp.netCore.Server_HostAddress}}/user/
+# Accept: application/json
+
+# GET {{OnlineShoppingReactAndAsp.netCore.Server_HostAddress}}/api/dropdown/getdropdownlist
+# Accept: application/json
+
+###
+
+### POST request to submit registration dynamically
+### POST request to submit registration dynamically
+### Register User
+POST  {{OnlineShoppingReactAndAsp.netCore.Server_HostAddress}}/api/user/login
+Content-Type: application/json
+
+{
+    
+    "email": "john@example.com",
+    "passwordHash": "1234dsf"
+   
+}
+
+
+###
+
+GET {{OnlineShoppingReactAndAsp.netCore.Server_HostAddress}}/api/category/index
+Accept: application/json
+###

@@ -1,0 +1,39 @@
+.navbar {  
+    position: fixed; /* Ensures the navbar stays at the top of the page */
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem; 
+    background-color:darkorange!important;
+    z-index:1000;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* left the menu items horizontally */
+    z-index:1000;
+}
+
+    .navbar-menu li {
+        float: none; /* Remove float since we're using flexbox */
+        margin: 0 10px; /* Add some margin between items */
+    }
+
+        .navbar-menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+            .navbar-menu li a:hover {
+                background-color: #111;
+            }
+
+
+
